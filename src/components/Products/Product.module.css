@@ -1,0 +1,36 @@
+.product {
+  width: 28%;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 80px;
+}
+.product img {
+  width: 100%;
+}
+.product h2 {
+  color: grey;
+  margin-top: 30px;
+}
+.product button {
+  background: #0b6efc;
+  border: 2px solid #0b6efc;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.product button:hover {
+  background: #fff;
+  border: 2px solid #0b6efc;
+  color: #0b6efc;
+}
+
+.product button:active {
+  background: #0b6efc;
+  border: 2px solid #0b6efc;
+  color: #fff;
+}
